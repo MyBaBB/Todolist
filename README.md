@@ -1,7 +1,15 @@
 # Todolist
 This is React Training with a todo list.
 
+this is vite react tailwind setup
+https://www.youtube.com/watch?v=22CxRxryQFE&t=443s
+
+this is tailwind setup
+https://tailwindcss.com/docs/installation
+
+this is the todo list
 https://www.youtube.com/watch?v=Rh3tobg7hEo
+
 
 Kyle
 Web Dev Simplified
