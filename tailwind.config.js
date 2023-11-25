@@ -38,10 +38,17 @@ export default {
       varDARKSPACE:          "#08121c", 
       varMEDSPACE:           "#1b3854", 
       varLIGHTSPACE:         "#264d73", 
-
-
     },
   },
+  screens: {
+    'xxs': '320px',
+    'xs': '420px',
+    'sm': '460px',
+    'md': '685px',
+    'lg': '1024px',
+    'xl': '1280px',
+  },
+  
   plugins: [],
 }
 }
