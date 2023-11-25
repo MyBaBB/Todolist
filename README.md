@@ -38,4 +38,56 @@ https://www.youtube.com/watch?v=Rh3tobg7hEo   - copy
 21:00 useState
 21:00 set Todo's
 21:46 set Todo Function 
+21:30 crypto.randomUUID()
+21:35 completed:false
+22:00  current todos compare new todo
+23:00 continued about passing a function for a current new todo.
+24:00 {todo.map}
+24:30 todo => return <li>
+24:31 todo.title
+24:35 checkbox
+24:46 <input type'checkbox' checked={todo.completed}/
+25:22 <li key={todo.id}>
+26:00 explain on deleting todo items errors.
+26:37 onChange {e =>toggleTodo(todo.id, e.target.cheked)};
+27:08 return {...todo, completed} 
+28:53 return currentTodos.filter(todo => todo/id !== id)
+29:01 function deleteTodo(id){}
+20:01 return currentTodos.filter(todo => todo.id !== id)
+29:13 <button  onClick={() => deleteTodo(todo.id)}
+30:35 {todos.llenth === 0 && "No Todos"}
+       Above is funvtional-- Next is Breaking it down into components
+31:16 NewTodoForm.jsx 
+31:40 copy and paste files from app.jsx to NewTodoForm.jsx
+33:30 if (newItem === "") return
+33:27 props.onsubmit
+35:00 TodoList.jsx
+36:40 <TodoItem id={todo.id} completed={todo.completed} title=
+       {todo.title} key={todo.id}>
+37:25  ...todo
+37:24  export an import altered todos.
+37:52 toggleTodo
+38:30 useEffect() => {
+        localStorage.setItem('ITEMS' JSON.stringify(todos))
+        }, [todos])
+39:50 if (local value) --null return[]
+
+
+       
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
 
