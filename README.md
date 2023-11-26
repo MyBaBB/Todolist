@@ -64,7 +64,12 @@ https://www.youtube.com/watch?v=Rh3tobg7hEo   - copy
 20:01 return currentTodos.filter(todo => todo.id !== id)
 29:13 <button  onClick={() => deleteTodo(todo.id)}
 30:35 {todos.llenth === 0 && "No Todos"}
-       Above is funvtional-- Next is Breaking it down into components
+
+      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                 
+      xx Above is functional-- Next is Breaking xx
+      xx       it down into components          xx
+      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
 31:16 NewTodoForm.jsx 
 31:40 copy and paste files from app.jsx to NewTodoForm.jsx
 33:30 if (newItem === "") return
