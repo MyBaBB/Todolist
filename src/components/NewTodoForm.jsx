@@ -15,9 +15,8 @@ export function NewTodoForm({ onSubmit }) {
 
   return (
     <form onSubmit={handleSubmit} className="new-item-form">
-      <div className="form-row">
-        <label htmlFor="item"><span className="oldFart"> Old Man Memory  
-        Bank</span></label>
+      <div className="form-row  ">
+        <label htmlFor="item"><span className="oldFart text-sm ">Add Brains</span></label>
         <input
           value={newItem}
           onChange={e => setNewItem(e.target.value)}
@@ -25,7 +24,8 @@ export function NewTodoForm({ onSubmit }) {
           id="item"
         />
       </div>
-      <button className="btn">Remember </button>
+      <button className="btn">Push To Remember </button>
+       
     </form>
   )
 }

@@ -63,7 +63,7 @@ https://www.youtube.com/watch?v=Rh3tobg7hEo   - copy
 29:01 function deleteTodo(id){}
 20:01 return currentTodos.filter(todo => todo.id !== id)
 29:13 <button  onClick={() => deleteTodo(todo.id)}
-30:35 {todos.llenth === 0 && "No Todos"}
+30:35 {todos.length === 0 && "No Todos"}
 
       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                 
       xx Above is functional-- Next is Breaking xx

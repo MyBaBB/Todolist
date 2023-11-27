@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import { TodoItem } from "./TodoItem"
 
 export function TodoList({ todos, toggleTodo, deleteTodo }) {
   return (
     <ul className="list">
-      {todos.length === 0 && "All done!"}
+      {todos.length === 0 && "No Brains Files Yet"}
       {todos.map(todo => {
         return (
           <TodoItem

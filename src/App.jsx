@@ -41,11 +41,12 @@ export default function App() {
       return currentTodos.filter(todo => todo.id !== id)
     })
   }
+   
 
-  return (
+    return (
     <>
       <NewTodoForm onSubmit={addTodo} />
-      <h1 className="header">It's Right here 💡</h1>
+      <h1 className="header">Brain Files</h1>
       <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
     </>
   )

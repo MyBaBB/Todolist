@@ -1,17 +1,30 @@
+/* eslint-disable react/prop-types */
 export function TodoItem({ completed, id, title, toggleTodo, deleteTodo }) {
     return (
-      <li>
-        <label>
+    <div className="outerDivContainer"> 
+      <li  className="ListItem9">
+        
+    <label  className="label1 flex border-2 border-varMEDBLUEFEATHER rounded-md max-w-[275px] pb-4 h-auto ">
           <input
             type="checkbox"
             checked={completed}
             onChange={e => toggleTodo(id, e.target.checked)}
+            
           />
-          {title}
-        </label>
-        <button onClick={() => deleteTodo(id)} className="btn btn-danger">
+          <div className="checkbox1 overflow-x-auto" >
+          <span className="title1   ">{title}</span>
+          </div>
+
+     </label>
+
+
+        <button onClick={() => deleteTodo(id)}
+        
+          className="btn btn-danger flex ">
           Delete
         </button>
       </li>
+    </div>
+
     )
   }
