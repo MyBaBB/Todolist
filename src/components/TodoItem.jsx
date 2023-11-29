@@ -4,7 +4,7 @@ export function TodoItem({ completed, id, title, toggleTodo, deleteTodo }) {
     <div className="outerDivContainer"> 
       <li  className="ListItem9">
         
-    <label  className="label1 flex border-2 border-varMEDBLUEFEATHER rounded-md max-w-[275px] pb-4 h-auto ">
+    <label  className="label1 flex border-2 border-varMEDBLUEFEATHER rounded-md max-w-[275px] h-auto ">
           <input
             type="checkbox"
             checked={completed}

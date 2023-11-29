@@ -45,9 +45,11 @@ export default function App() {
 
     return (
     <>
+    <div className="controlContainer  ">
       <NewTodoForm onSubmit={addTodo} />
       <h1 className="header">Brain Files</h1>
       <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
+      </div>
     </>
   )
 }
